@@ -60,6 +60,8 @@
 .front .row .col1 img{
     height:100%;
     width:100%;
+    transition:all 0.1s ease-in-out 0s;
+
 }
 .front .row .cols h1{
     font-size:3vw;
@@ -463,6 +465,10 @@
 .work .row .col1 img{
     width:100%;
     border-radius:1.5vw;
+    transition:all 0.25s ease-in-out 0s;
+}
+.work .row .col1 img:hover{
+    box-shadow: 0 0 15px #6ab43e;
 }
 .work .row .col2{
     padding:5vw;
@@ -568,6 +574,7 @@
 }
 .work-img .boxes:hover img{
     transform:scale(1.1);
+    box-shadow:0 0 15px #6ab43e;
 }
 /* WORK IMAGE END */
 
@@ -1241,7 +1248,7 @@
 
 .photo-gallery img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #6ab43e;;
+    box-shadow: 0 0 15px #6ab43e;
 }
 
 /* Contact Section */
